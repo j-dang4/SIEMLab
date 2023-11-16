@@ -41,12 +41,10 @@ Let's access our dashboard for the first time! Our host's (laptop) IP is 192.168
 Wow this is a pretty neat SIEM for being open-source! Since this is only a lab and will remain in our private network, we will not be getting a domain name or configuring SSL.  <br/>
 We can see that it has features such as Security Information Management, Auditing and Policy Monitoring, Threat Detection and Response,  Regulatory Compliance, and more!
 <br />
- </p>
 <br />
  <h2>Configuration Walk-through:</h2>
-
 <br />
-<p align:"center">Agents  <br/>
+<b> Agents</b>  <br/>
  Now what's the point of a SIEM without any agents to monitor? 
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
