@@ -20,7 +20,7 @@ This project consists of upcycling a useless old laptop and converting it into a
 
 <p align="center">
 For this project, I will be using an old retired Aspire laptop with an Intel Celeron, 4GB RAM, and 32GB of storage. The laptop had been wiped with a fresh Xubuntu 22.04 installation. It will be used as the headless SIEM server.  <br/>
- Let's SSH into it! <br/>
+I've set up SSH server on it along with basic packages, so let's SSH into it! <br/>
 <img src="https://i.gyazo.com/1644a5a603408879e60369a70feedeba.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
