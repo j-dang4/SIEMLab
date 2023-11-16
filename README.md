@@ -11,7 +11,7 @@ This project consists of upcycling a useless old laptop and converting it into a
 
 - <b>Linux</b> 
 - <b>Various tools</b>
--  [Wazuh Open Source SIEM & XDR] (https://wazuh.com/)
+-  [Wazuh Open Source SIEM & XDR](https://wazuh.com/)
 <h2>Environments Used </h2>
 
 - <b>Xubuntu 22.04</b>
