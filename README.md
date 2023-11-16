@@ -19,7 +19,7 @@ This project consists of upcycling a useless old laptop and converting it into a
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+For this project, I will be using an old Aspire laptop with an Intel Celeron, 4GB RAM, and 32GB of storage. The laptop had been wiped with a fresh Xubuntu 22.04 installation. It will be used as the headless SIEM server.  <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
