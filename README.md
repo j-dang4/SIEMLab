@@ -1,20 +1,20 @@
-<h1>Deploying Wazuh SIEM and XDR to monitor home endpoints</h1>
+<h1>[Home Lab] Deploying Wazuh SIEM and XDR </h1>
 
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project consists of upcycling a useless old laptop and converting it into a headless SIEM to monitor my home network and endpoints
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Linux</b> 
+- <b>Various tools</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Xubuntu 22.04</b>
 
 <h2>Program walk-through:</h2>
 
