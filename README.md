@@ -24,7 +24,7 @@ I've set up SSH server on it along with basic packages, so let's SSH into it! <b
 <img src="https://i.gyazo.com/1644a5a603408879e60369a70feedeba.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Once we've connected to our laptop, we can now begin the installation of the Wazuh SIEM Server. I will be referring to the official documentation found here(https://documentation.wazuh.com/current/index.html) <br/>
+Once we've connected to our laptop, we can now begin the installation of the Wazuh SIEM Server. I will be referring to the official quickstart documentation found here(https://documentation.wazuh.com/current/quickstart.html) <br/>
 <img src="https://i.gyazo.com/0ec8ce4244073376be80490d8de14cbc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
