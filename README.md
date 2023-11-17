@@ -42,16 +42,23 @@ Wow this is a pretty neat SIEM for being open-source! Since this is only a lab a
 We can see that it has features such as Security Information Management, Auditing and Policy Monitoring, Threat Detection and Response,  Regulatory Compliance, and more!
 <br />
 <br />
- <h2>Configuration Walk-through:</h2>
+</p>
+ 
+ <h2>Configuration Walk-Through:</h2>
 <br />
-<b> Agents</b>  <br/>
- Now what's the point of a SIEM without any agents to monitor? 
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center">
+<b> Endpoints!</b>  <br/>
+ Now what's the point of a SIEM without any endpoints to monitor? <br/>
+ We will be installing the Wazuh Agent on my personal desktop running Windows 11!<br/>
+ We will following the steps in the web dashboard to install the agent on endpoints and then start the Wazuh service. <br/>
+<img src="https://i.gyazo.com/c890df655015030756d9392f53e5fb8d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+ We've successfully installed and deployed the Wazuh agent on our personal Windows 11 desktop! Here's a snippet from the web dashboard:
+<br/>
+<img src="https://i.gyazo.com/b33da514b3f2a9d2153d452d31badc36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
 
+ 
 </p>
 <!--
  ```diff
