@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-This project consists of upcycling a useless old laptop and converting it into a headless SIEM to monitor my home network and endpoints
+This project consists of upcycling an old laptop and converting it into a headless SIEM to monitor various endpoints in my home network.
 <br />
 
 
@@ -14,7 +14,7 @@ This project consists of upcycling a useless old laptop and converting it into a
 - [Wazuh Open Source SIEM & XDR](https://wazuh.com/)
 <h2>Environments Used </h2>
 
-- <b>Xubuntu 22.04</b>
+- <b>Ubuntu 22.04</b>
 
 <h2>Installation walk-through:</h2>
 
@@ -39,7 +39,8 @@ Let's access our dashboard for the first time! Our host's (laptop) IP is 192.168
 <br />
 <br />
 Wow this is a pretty neat SIEM for being open-source! Since this is only a lab and will remain in our private network, we will not be getting a domain name or configuring SSL.  <br/>
-We can see that it has features such as Security Information Management, Auditing and Policy Monitoring, Threat Detection and Response,  Regulatory Compliance, and more!
+We can see that it has features such as Security Information Management, Auditing and Policy Monitoring, Threat Detection and Response,  Regulatory Compliance, and more! <br/>
+Keep in mind this lab will not go over all the modules in depth, but intended to provide a small overview on what Wazuh is capable of as a whole.
 <br />
 <br />
 </p>
@@ -58,9 +59,27 @@ We can see that it has features such as Security Information Management, Auditin
 <img src="https://i.gyazo.com/b33da514b3f2a9d2153d452d31badc36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
  
-<h2>Assessing the data</h2>
+ </p>
+ 
+<h2>Assessing the endpoint</h2>
+<p align="center">
 So now that our Wazuh agent is deployed on an endpoint, what can we digest from it?
+Let's run a baseline security configuration assessment bechmark using the Center for Internet Security(IS) Controls guidelines against our desktop endpoint to see how it holds up in an enterprise environment. 
+<br/>
+<img src="https://i.gyazo.com/16a1a9aa14b387edcfaa94075b32961b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+As you can see, we scored a 32% with 128 passed and 263 failed checks. Each "check" refers to a standardized best practice for a specific setting or function within your system. 
+<br/><br/>
+Obviously, this score would not be ideal in a corporate setting but is totally fine in a home environment with a single user. 
+<br/>
+We can also dive into each individual check to find out more information such as the rationale behind the check as well as any remediations.
+<br/>
+Per the example below for a check regarding Password Length, we are provided with a plethora of useful information.
+ <br/>
+<img src="https://i.gyazo.com/dd8b466c1e4eddf227662c97f7f75ca3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
 </p>
+
 <!--
  ```diff
 - text in red
