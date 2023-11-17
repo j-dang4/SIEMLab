@@ -57,8 +57,9 @@ We can see that it has features such as Security Information Management, Auditin
 <br/>
 <img src="https://i.gyazo.com/b33da514b3f2a9d2153d452d31badc36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
-
  
+<h2>Assessing the data</h2>
+So now that our Wazuh agent is deployed on an endpoint, what can we digest from it?
 </p>
 <!--
  ```diff
